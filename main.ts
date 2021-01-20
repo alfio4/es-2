@@ -141,3 +141,4 @@ let boby = sprites.create(img`
     `, SpriteKind.Player)
 boby.setPosition(80, 80)
 controller.moveSprite(boby)
+boby.setFlag(SpriteFlag.StayInScreen, true)
